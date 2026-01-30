@@ -14,4 +14,8 @@ public class Mostruo extends Entidad{
     public Boolean getSalvage() {
         return salvage;
     }
+
+    protected void setSalvage(Boolean salvage) {
+        this.salvage = salvage;
+    }
 }

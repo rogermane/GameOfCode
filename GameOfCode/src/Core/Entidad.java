@@ -18,4 +18,15 @@ public class Entidad {
         return name;
     }
 
+    protected void setName(String name) {
+        this.name = name;
+    }
+
+    protected void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+
+    protected void setPuntosVida(int puntosVida) {
+        this.puntosVida = puntosVida;
+    }
 }

@@ -14,4 +14,8 @@ public class Mago extends Entidad{
     public int getMana() {
         return mana;
     }
+
+    protected void setMana(int mana) {
+        this.mana = mana;
+    }
 }
