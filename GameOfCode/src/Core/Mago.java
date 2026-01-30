@@ -11,4 +11,7 @@ public class Mago extends Entidad{
         this.mana = 100;
     }
 
+    public int getMana() {
+        return mana;
+    }
 }

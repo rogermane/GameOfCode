@@ -11,4 +11,7 @@ public class Guerrero extends Entidad{
         this.resistencia = 5;
     }
 
+    public int getResistencia() {
+        return resistencia;
+    }
 }
