@@ -18,4 +18,9 @@ public class Mago extends Entidad{
     protected void setMana(int mana) {
         this.mana = mana;
     }
+
+    @Override
+    public void atacar(Entidad p) {
+        System.out.println("Rayo a " + p.name);
+    }
 }

@@ -18,4 +18,9 @@ public class Mostruo extends Entidad{
     protected void setSalvage(Boolean salvage) {
         this.salvage = salvage;
     }
+
+    @Override
+    public void atacar(Entidad p) {
+        System.out.println("Zarpazo a " + p.name);
+    }
 }

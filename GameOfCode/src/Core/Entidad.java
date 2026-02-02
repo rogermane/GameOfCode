@@ -1,6 +1,6 @@
 package Core;
 
-public class Entidad {
+public abstract class Entidad {
 
     protected String name;
     protected int nivel;
@@ -29,4 +29,6 @@ public class Entidad {
     protected void setPuntosVida(int puntosVida) {
         this.puntosVida = puntosVida;
     }
+
+    public abstract void atacar(Entidad Entidad);
 }

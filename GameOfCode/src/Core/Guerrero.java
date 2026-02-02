@@ -18,4 +18,9 @@ public class Guerrero extends Entidad{
     protected void setResistencia(int resistencia) {
         this.resistencia = resistencia;
     }
+
+    @Override
+    public void atacar(Entidad p) {
+        System.out.println("Puñetazo a " + p.name);
+    }
 }
