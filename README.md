@@ -8,7 +8,17 @@ Elección de modo de juego, Atacar, Usar Carta, Pasar Turno y Abrir Tienda.
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
 # Capturas
+## Menu Principal
+![Menu Principal](./Assets/mainMenu.png)
 
+## Crear Personaje
+![Crear Personaje](./Assets/crearPersonaje.png)
+
+## Atacar
+![Atacar](./Assets/atacar.png)
+
+## Tienda
+![Tienda](./Assets/tienda.png)
 
 # Explicación de Ejecución
 - JDK 25
